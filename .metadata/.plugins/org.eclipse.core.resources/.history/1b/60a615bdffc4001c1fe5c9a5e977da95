@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class PasswordStorage {
+
+	public static ArrayList<String> passwords = new ArrayList<>();
+	
+	public static void main(String[] args) {
+		addPassword("kumquat");
+		System.out.println(passwords.toString());
+
+	}
+	
+	public static void addPassword(String str) {
+		
+		passwords.add(str);
+	}
+
+}

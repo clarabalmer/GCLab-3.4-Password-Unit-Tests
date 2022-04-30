@@ -1,0 +1,28 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+
+class addPasswordTests {
+
+	@Test
+	void uniquePassword() {
+		PasswordStorage.addPassword("bananas");
+		Assert.assertTrue(PasswordStorage.addPassword("pineapple"));
+	}
+	@Test
+	void repeatPassword() {
+		PasswordStorage.addPassword("pineapple");
+		Assert.assertTrue(!PasswordStorage.addPassword("pineapple"));
+	}
+
+	@Test
+	void shortPassword() {
+		Assert.assertTrue(!PasswordStorage.addPassword("bub"));
+	}
+	@Test
+	void longPassword() {
+		Assert.assertTrue(!PasswordStorage.addPassword("enormouspassword"));
+	}
+	
+}

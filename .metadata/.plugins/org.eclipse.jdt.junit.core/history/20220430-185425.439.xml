@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="addPasswordTests" project="Passwords&amp;UnitTest" tests="32" started="32" failures="0" errors="0" ignored="0">
+  <testsuite name="addPasswordTests" time="0.259" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]">
+    <testcase name="onlyPrimesPresent2" classname="addPasswordTests" time="0.116" displayname="onlyPrimesPresent2()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:onlyPrimesPresent2()]"/>
+    <testcase name="allNumsTest" classname="addPasswordTests" time="0.0" displayname="allNumsTest()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:allNumsTest()]"/>
+    <testcase name="arrayListIsChanged" classname="addPasswordTests" time="0.011" displayname="arrayListIsChanged()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:arrayListIsChanged()]"/>
+    <testcase name="hasSix" classname="addPasswordTests" time="0.0" displayname="hasSix()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:hasSix()]"/>
+    <testcase name="longPassword" classname="addPasswordTests" time="0.017" displayname="longPassword()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:longPassword()]"/>
+    <testcase name="hasTwoSpaces" classname="addPasswordTests" time="0.0" displayname="hasTwoSpaces()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:hasTwoSpaces()]"/>
+    <testcase name="modAdd" classname="addPasswordTests" time="0.0" displayname="modAdd()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:modAdd()]"/>
+    <testcase name="primesWithSixFalse" classname="addPasswordTests" time="0.003" displayname="primesWithSixFalse()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:primesWithSixFalse()]"/>
+    <testcase name="adminAdd" classname="addPasswordTests" time="0.005" displayname="adminAdd()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:adminAdd()]"/>
+    <testcase name="falseCheck" classname="addPasswordTests" time="0.005" displayname="falseCheck()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:falseCheck()]"/>
+    <testcase name="isTuesdayTuesday" classname="addPasswordTests" time="0.001" displayname="isTuesdayTuesday()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:isTuesdayTuesday()]"/>
+    <testcase name="noCapVowels" classname="addPasswordTests" time="0.002" displayname="noCapVowels()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:noCapVowels()]"/>
+    <testcase name="repeatPassword" classname="addPasswordTests" time="0.002" displayname="repeatPassword()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:repeatPassword()]"/>
+    <testcase name="adminNoRepeat" classname="addPasswordTests" time="0.001" displayname="adminNoRepeat()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:adminNoRepeat()]"/>
+    <testcase name="isPrimeTest" classname="addPasswordTests" time="0.002" displayname="isPrimeTest()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:isPrimeTest()]"/>
+    <testcase name="repeatPassword2" classname="addPasswordTests" time="0.001" displayname="repeatPassword2()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:repeatPassword2()]"/>
+    <testcase name="twelveFifteenWitchingHour" classname="addPasswordTests" time="0.003" displayname="twelveFifteenWitchingHour()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:twelveFifteenWitchingHour()]"/>
+    <testcase name="oneCapVowel" classname="addPasswordTests" time="0.002" displayname="oneCapVowel()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:oneCapVowel()]"/>
+    <testcase name="hasSpace" classname="addPasswordTests" time="0.002" displayname="hasSpace()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:hasSpace()]"/>
+    <testcase name="onlyPrimesPresent" classname="addPasswordTests" time="0.001" displayname="onlyPrimesPresent()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:onlyPrimesPresent()]"/>
+    <testcase name="shortPassword" classname="addPasswordTests" time="0.001" displayname="shortPassword()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:shortPassword()]"/>
+    <testcase name="passwordIsAdded" classname="addPasswordTests" time="0.002" displayname="passwordIsAdded()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:passwordIsAdded()]"/>
+    <testcase name="nonPrimesPresent2" classname="addPasswordTests" time="0.002" displayname="nonPrimesPresent2()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:nonPrimesPresent2()]"/>
+    <testcase name="hasSix2" classname="addPasswordTests" time="0.002" displayname="hasSix2()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:hasSix2()]"/>
+    <testcase name="isPrimeTest2" classname="addPasswordTests" time="0.001" displayname="isPrimeTest2()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:isPrimeTest2()]"/>
+    <testcase name="isPrimeTest3" classname="addPasswordTests" time="0.001" displayname="isPrimeTest3()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:isPrimeTest3()]"/>
+    <testcase name="trueCheck" classname="addPasswordTests" time="0.004" displayname="trueCheck()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:trueCheck()]"/>
+    <testcase name="sixThirtyWitchingHour" classname="addPasswordTests" time="0.002" displayname="sixThirtyWitchingHour()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:sixThirtyWitchingHour()]"/>
+    <testcase name="modNoRepeat" classname="addPasswordTests" time="0.001" displayname="modNoRepeat()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:modNoRepeat()]"/>
+    <testcase name="nonPrimesPresent" classname="addPasswordTests" time="0.001" displayname="nonPrimesPresent()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:nonPrimesPresent()]"/>
+    <testcase name="isWednesdayTuesday" classname="addPasswordTests" time="0.002" displayname="isWednesdayTuesday()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:isWednesdayTuesday()]"/>
+    <testcase name="arrayListNotChanged" classname="addPasswordTests" time="0.001" displayname="arrayListNotChanged()" uniqueid="[engine:junit-jupiter]/[class:addPasswordTests]/[method:arrayListNotChanged()]"/>
+  </testsuite>
+</testrun>

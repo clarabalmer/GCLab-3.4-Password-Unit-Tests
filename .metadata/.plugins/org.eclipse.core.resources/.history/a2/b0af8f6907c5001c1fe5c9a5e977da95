@@ -1,0 +1,69 @@
+import java.util.ArrayList;
+
+public class PasswordStorage {
+
+	public static ArrayList<String> passwords = new ArrayList<>();
+	
+	public static void main(String[] args) {
+		System.out.println(passwords.toString());
+
+	}
+	
+	public static boolean addPassword(String str) {
+		//password must not exist already
+		if (!passwords.contains(str)) {
+			//password must be between 7 and 12 chars exclusive, have a num but not 6, have no spaces
+			if (str.length() > 7 && str.length() < 12 && hasNumNoSix(str) && hasNoSpace(str)) && hasCapVowel(str)) {
+				passwords.add(str);
+				return true;
+			}
+			
+		}
+		return false;
+	}
+	public static boolean hasNoSpace(String str) {
+		for (int i = 0; i < str.length(); i++) {
+			if (str.charAt(i) == ' ') {
+				return false;
+			}
+		}
+		return true;
+	}
+	public static boolean hasCapVowel(String str) {
+		char[] capVowels = {'A', 'E', 'I', 'O', 'U', 'Y'};
+		int count = 0;
+		for (char vowel : capVowels) {
+			for (int i = 0; i < str.length(); i++) {
+				if (vowel == str.charAt(i)) {
+					count++;
+				}
+			}
+		}
+		return (count >= 2);
+	}
+	
+	public static boolean hasNumNoSix(String str) {
+		boolean sixPresent = false;
+		boolean numPresent = true;
+		for (int i = 0; i < str.length(); i++) {
+			if (isInteger(str.substring(i, i+1))) {
+				numPresent = true;
+				int sixMaybe = Integer.parseInt(str.substring(i, i+1));
+				if (sixMaybe == 6) {
+					sixPresent = true;
+				}
+			}
+		}
+		return (!sixPresent && numPresent);
+	}
+	
+	public static boolean isInteger(String str) {
+		try {
+			Integer.parseInt(str);
+			return true;
+		} catch (NumberFormatException e) {
+			return false;
+		}
+	}
+
+}

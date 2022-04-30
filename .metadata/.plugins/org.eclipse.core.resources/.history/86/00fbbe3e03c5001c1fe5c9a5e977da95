@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+
+public class PasswordStorage {
+
+	public static ArrayList<String> passwords = new ArrayList<>();
+	
+	public static void main(String[] args) {
+		System.out.println(passwords.toString());
+
+	}
+	
+	public static boolean addPassword(String str) {
+		//password must not exist already
+		if (!passwords.contains(str)) {
+			//password must be between 7 and 12 chars exclusive
+			if (str.length() > 7 && str.length() < 12) {
+				passwords.add(str);
+				return true;
+			}
+			
+		}
+		return false;
+	}
+
+}

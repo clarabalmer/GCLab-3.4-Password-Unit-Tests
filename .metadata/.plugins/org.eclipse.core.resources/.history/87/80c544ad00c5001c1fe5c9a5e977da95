@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+public class PasswordStorage {
+
+	public static ArrayList<String> passwords = new ArrayList<>();
+	
+	public static void main(String[] args) {
+		System.out.println(passwords.toString());
+
+	}
+	
+	public static boolean addPassword(String str) {
+		if (!passwords.contains(str)) {
+			passwords.add(str);
+			return true;
+		}
+		return false;
+	}
+
+}
